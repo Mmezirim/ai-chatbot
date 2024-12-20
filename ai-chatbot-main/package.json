@@ -1,0 +1,34 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "AI Chatbot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mmezirim/ai-chatbot.git"
+  },
+  "keywords": [
+    "ai",
+    "chatbot"
+  ],
+  "author": "Chimmezirim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mmezirim/ai-chatbot/issues"
+  },
+  "homepage": "https://github.com/Mmezirim/ai-chatbot#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.9",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "readline-sync": "^1.4.10"
+  }
+}
